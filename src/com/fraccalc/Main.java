@@ -70,6 +70,12 @@ public class Main {
         d.ausgeben();
 
 
+        a.setze(50,100);
+        System.out.print("\nKuerzen des Bruchs  ");
+        a.ausgeben();
+        System.out.print(" ergibt ");
+        a.gekuerztausgeben();
+
         a.setze(1,2);
         b.setze(2,3);
         System.out.print("\nVergleich der Brueche  ");
