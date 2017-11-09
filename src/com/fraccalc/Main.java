@@ -17,9 +17,9 @@ public class Main {
         Bruch c = new Bruch();
         Bruch d = new Bruch();
 
-        // Bruch_mit_Seriennummer aS = new Bruch_mit_Seriennummer();
-        // Bruch_mit_Seriennummer bS = new Bruch_mit_Seriennummer(3,4);
-        // Bruch_mit_Seriennummer cS = new Bruch_mit_Seriennummer(3);
+        Bruch_mit_Seriennummer aS = new Bruch_mit_Seriennummer();
+        Bruch_mit_Seriennummer bS = new Bruch_mit_Seriennummer(3,4);
+        Bruch_mit_Seriennummer cS = new Bruch_mit_Seriennummer(3);
 
 
         b.ausgeben();
@@ -113,7 +113,7 @@ public class Main {
 
 
 
-/*
+
         // Bruch mit Seriennummer
         System.out.print("\n Seriennummer ");
         System.out.print(aS.seriennummer);
@@ -129,7 +129,7 @@ public class Main {
         System.out.print(cS.seriennummer);
         System.out.print(", Wert des Bruchs ");
         cS.ausgeben();
-*/
+
 
     }
 }
